@@ -23,7 +23,7 @@
 ?>
 <div class="article" <?=$style?>>
     <a href="<?=$baseUrl . $per?>cikk/<?=$article["article_url"]?>" target="_blanket">
-        <h1><?=$article["title"];?></h1>
+        <h1 class="title"><?=$article["title"];?></h1>
         <div class="pic_holder <?=$imgClass?>">
             <img <?=isset($matches[0]) ? $matches[0] : ""?>>
         </div>

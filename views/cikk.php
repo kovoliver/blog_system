@@ -1,4 +1,4 @@
-<h1>Cikk</h1>
+<h1 class="title"><?=isset($article["title"]) ? $article["title"] : ""?></h1>
 <?=isset($article["content"]) ? $article["content"] : ""?>
 <div class="clearfix"></div>
 <div class="date_holder">
