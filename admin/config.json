@@ -1,0 +1,8 @@
+{
+    "dbType":"mysql",
+    "host":"localhost",
+    "dbUser":"root",
+    "dbPass":"",
+    "dbName":"blog",
+    "charset":"UTF8"
+}
