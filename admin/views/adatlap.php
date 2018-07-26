@@ -45,9 +45,11 @@
             </div>
        <?php }
     ?>
+    <h3>Blog címe</h3>
     <input type="text" class="input" value="<?=isset($blogData["blog_title"]) ? $blogData["blog_title"] : ""?>"
     name=":title" placeholder="A blog címe">
 
+    <h3>Publikus email cím</h3>
     <input type="text" class="input" value="<?=isset($blogData["public_email"]) ? $blogData["public_email"] : ""?>"
     name=":public_email" placeholder="email cím">
     <label class="checkbox_holder">
@@ -55,6 +57,7 @@
         name=":email_on"> publikus
     </label>
 
+    <h3>Publikus telefonszám</h3>
     <input type="text" class="input" value="<?=isset($blogData["public_phone"]) ? $blogData["public_phone"] : ""?>"
     name=":public_phone" placeholder="telefonszám">
     <label class="checkbox_holder">
@@ -62,9 +65,11 @@
         name=":phone_on"> publikus
     </label>
 
+    <h3>Facebook app id</h3>
     <input type="text" class="input" value="<?=isset($blogData["facebook_app_id"]) ? $blogData["facebook_app_id"] : ""?>"
     name=":facebook_app_id" placeholder="Facebook komment app id">
 
+    <h3>Share this link</h3>
     <input type="text" class="input" value="<?=isset($blogData["share_this_link"]) ? $blogData["share_this_link"] : ""?>"
     name=":share_this_link" placeholder="Share this link">
 

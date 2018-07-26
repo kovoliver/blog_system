@@ -2,7 +2,7 @@
 
 trait urlTrait {
     public static function GetUrlArray() {
-        $urlArray = isset($_GET['url']) ? explode('/', rtrim($_GET['url'])) : [];
+        $urlArray = isset($_GET['url']) ? explode('/', rtrim($_GET['url'], "/")) : [];
         return $urlArray;
     }
 

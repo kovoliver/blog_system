@@ -1,7 +1,7 @@
 {
     "dbType":"mysql",
     "host":"localhost",
-    "dbUser":"root",
+    "dbUser":"blog",
     "dbPass":"",
     "dbName":"blog",
     "charset":"UTF8"
